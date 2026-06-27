@@ -1,102 +1,353 @@
-# 👋 Hi, I’m OattyDev
+# 👋 Hi, I'm Toon Namjai (OattyDev)
 
-Welcome to my GitHub! I’m a passionate software developer with a focus on building robust, scalable, and secure financial systems. I work primarily in the FinTech space, developing eWallet platforms, banking integrations, and high-performance backend solutions.
+> Building production-ready software with a focus on security, scalability, automation, AI, and enterprise integrations.
 
-## 🧠 Tech Stack
+Welcome to my GitHub!
 
-I enjoy working with modern technologies to solve real-world financial problems. Here are the tools and frameworks I currently use:
+I'm a software engineer passionate about designing and building reliable systems that solve real business problems. My work ranges from financial platforms and enterprise CRM integrations to AI-powered development workflows, cloud infrastructure, offline-first applications, and automation.
 
-- **Backend**:  
-  - Node.js, Express.js  
-  - MySQL (with Prisma ORM)  
-  - REST APIs (and exploring GraphQL)
-  
-- **Cloud & Infrastructure**:  
-  - AWS (S3, EC2, Lambda, API Gateway, RDS)  
-  - Docker, Kubernetes  
-  - Redis (for caching)
-
-- **Authentication & Security**:  
-  - Email Code Login (production-level implementation)  
-  - OAuth (Google, Facebook, LinkedIn)  
-  - Access & Refresh Tokens  
-  - API Security Testing (CLI tool development)
-
-- **DevOps**:  
-  - CI/CD pipelines (GitHub Actions)  
-  - Automated testing & deployment  
-  - Monitoring & Performance tuning
-
-- **Miscellaneous**:  
-  - Financial API Integrations (Xero, MT103, Bottomline)  
-  - KYC/AML workflows & document management in AWS S3
-
-## 💼 Current Projects
-
-Here are some of the key projects I’m working on:
-
-### 🔑 **Email Code Authentication System**
-A production-ready, secure authentication system built with Node.js, Express, and MySQL. It utilizes email-based one-time passwords (OTP) for login and supports future social authentication (Google, LinkedIn, etc.).
-
-- **Features**:  
-  - Code-as-password login via email
-  - Secure, production-level handling of access and refresh tokens
-  - Rate-limited API to prevent brute-force attacks
-  - Complete database schema with audit logging
-
-### 🏦 **FinTech eWallet with Xero Integration**
-Building a secure, efficient, and automated eWallet platform. It integrates directly with Xero for banking and transaction management, with advanced audit and security controls.
-
-- **Key Features**:
-  - Automated payments and transactions with Xero integration
-  - Real-time monitoring of financial transactions
-  - KYC & AML integration using AWS S3 for document storage
-  - Cross-platform API security for mobile and web apps
-
-### 🧪 **API Security Tester (CLI Tool)**
-A Command-Line Interface (CLI) tool for testing backend API security vulnerabilities. It helps identify potential risks like brute-force attacks, SQL injection, and missing authentication.
-
-- **WIP Features**:  
-  - Brute-force testing for login endpoints  
-  - SQL injection vulnerability checks  
-  - Missing authentication & authorization checks  
-  - Rate-limiting checks to prevent abuse
-
-## 🏅 Achievements
-
-- **Xero Integration**: Successfully implemented a payment and transaction processing system directly integrated with Xero, ensuring full compliance and security for financial transactions.
-- **Security Focus**: Developed a security-focused authentication system, ensuring real-time data protection and minimized risk of data breaches.
-- **AWS Expert**: Deployed multiple high-traffic applications on AWS, leveraging cloud-native services like S3, RDS, and Lambda to optimize performance and reduce operational overhead.
-- **CLI Development**: Created several CLI tools for internal use, automating common tasks like security testing and database management.
-
-## 📈 Current Focus
-
-- **Building Secure, Scalable Financial Systems**: I am continuously working on improving the eWallet platform and refining its integration with external financial systems.
-- **API Security**: Developing a comprehensive suite of tools to help developers identify and patch security flaws in APIs before they reach production.
-- **Cloud-Native Infrastructure**: I’m improving my knowledge and skills in serverless computing and microservices architectures to enhance scalability.
-
-## 🧑‍💻 Let’s Connect!
-
-I’m always open to collaborating on open-source projects or discussing innovative solutions in FinTech and cybersecurity.
-
-- 📧 **Email**: toon@oattydev.com  
-- 🔗 **LinkedIn**: [linkedin.com/in/toon-namjai](https://www.linkedin.com/in/toon-namjai-4a4b71351/)  
-- 🌐 **Website**: [www.oattydev.com](https://www.oattydev.com)
+I enjoy taking ideas from architecture all the way to production—building secure APIs, scalable backend services, modern web and mobile applications, and infrastructure that developers can trust.
 
 ---
 
-### 🚀 Fun Facts
+# 🚀 Tech Stack
 
-- I’m an avid problem solver, especially when it comes to improving backend infrastructure for security and scalability.
-- When I’m not coding, I’m usually diving deep into finance-related tech blogs or reading about the latest trends in cloud computing.
-- I enjoy sharing knowledge and contributing to the tech community through open-source projects.
+## 💻 Languages
 
-> "Built for production. Not just a side project."
+* TypeScript
+* JavaScript (ES2024+)
+* SQL
+* HTML5
+* CSS3
 
 ---
 
-## 🛠 How I Work
+## ⚙️ Backend
 
-- I focus on delivering high-quality code with security and scalability in mind.
-- I prefer to document everything thoroughly and ensure systems are highly testable.
-- I use Agile methodologies for project management, ensuring fast, iterative development with regular feedback loops.
+* Node.js
+* Express.js
+* REST APIs
+* GraphQL
+* Prisma ORM
+* Authentication Systems
+* Queue Workers
+* Event-driven Architecture
+* Background Jobs
+* API Design
+* Webhooks
+* Microservices
+
+---
+
+## 🎨 Frontend
+
+* React
+* Next.js
+* React Native
+* Expo
+* Tailwind CSS
+* Progressive Web Apps (PWA)
+* Responsive UI
+* Offline-first Applications
+
+---
+
+## 📱 Mobile Development
+
+* React Native
+* Expo
+* Offline Data Synchronization
+* SQLite
+* IndexedDB
+* Background Sync
+* Cross-platform Development
+
+---
+
+## 🗄 Databases
+
+* MySQL
+* PostgreSQL
+* Redis
+* Prisma ORM
+* Database Optimization
+* Data Migration
+* Query Performance
+
+---
+
+## ☁️ Cloud & Infrastructure
+
+* AWS EC2
+* AWS Lambda
+* AWS S3
+* AWS RDS
+* API Gateway
+* Docker
+* Docker Compose
+* Kubernetes
+* Linux Servers
+* VPS Management
+* Cloudflare
+* Cloudflare Tunnel
+* Reverse Proxy
+* Nginx
+* Traefik
+* SSL / HTTPS
+* DNS Management
+
+---
+
+## 🐳 Docker & DevOps
+
+Building reproducible environments and automated deployment pipelines is a big part of my workflow.
+
+* Docker
+* Docker Compose
+* Multi-stage Docker Builds
+* Container Networking
+* GitHub Actions
+* CI/CD Pipelines
+* Environment Management
+* Production Deployment
+* Monitoring
+* Performance Optimization
+* Log Management
+
+---
+
+## 🔐 Authentication & Security
+
+Security is always considered from the beginning of a project—not added later.
+
+* OAuth 2.0
+* JWT Authentication
+* Access Tokens
+* Refresh Tokens
+* Email OTP Authentication
+* Role-based Access Control (RBAC)
+* API Security
+* Rate Limiting
+* Secure File Storage
+* Secret Management
+* OWASP Best Practices
+* Security Testing
+
+---
+
+# 🤖 AI Engineering
+
+AI is part of my daily engineering workflow—from software architecture and implementation to debugging, automation, documentation, and code review.
+
+## AI Coding Platforms
+
+* Claude Code
+* ChatGPT
+* OpenAI Codex
+* GitHub Copilot
+* Google Gemini
+* Cursor
+* Windsurf
+* Cline
+* Roo Code
+* Continue.dev
+
+## AI APIs
+
+* OpenAI API
+* Anthropic Claude API
+* Google Gemini API
+
+## AI Development
+
+* Prompt Engineering
+* AI-assisted Software Development
+* AI Workflow Automation
+* Function Calling
+* Tool Calling
+* Retrieval-Augmented Generation (RAG)
+* Model Context Protocol (MCP)
+* AI Code Review
+* AI Documentation
+* AI-powered Development Workflows
+
+---
+
+# 🔌 Enterprise Integrations
+
+I enjoy integrating complex business systems together.
+
+Experience working with:
+
+* Zoho CRM
+* Zoho Desk
+* Zoho Flow
+* Zoho Projects
+* Zoho Sign
+* Zoho Analytics
+* Zoho Creator
+* WordPress
+* WooCommerce
+* Stripe
+* MobilePay
+* Xero
+* e-conomic
+* Banking APIs
+* Financial APIs
+* Payment Gateways
+* Third-party REST APIs
+
+---
+
+# ⚡ Automation
+
+Automating repetitive work is one of my favorite parts of software engineering.
+
+* n8n
+* GitHub Actions
+* Workflow Automation
+* Scheduled Jobs
+* Event-driven Systems
+* API Automation
+* CRM Automation
+* Business Process Automation
+
+---
+
+## 🤖 AI-powered Development
+
+Building AI-assisted workflows that improve development speed, documentation quality, debugging, and engineering productivity.
+
+Current interests include:
+
+* AI Coding Workflows
+* MCP Integrations
+* AI Automation
+* Enterprise AI
+
+---
+
+## 📱 Offline-first Applications
+
+Designing applications that continue working without internet connectivity while maintaining reliable synchronization once online.
+
+Current technologies:
+
+* React Native
+* Next.js
+* IndexedDB
+* SQLite
+* Background Sync
+* Conflict Resolution
+* Manual Synchronization
+
+---
+
+## 🔒 API Security Toolkit
+
+Developing tools for analyzing backend API security and improving production readiness.
+
+Features include:
+
+* Authentication Validation
+* Rate-limit Testing
+* Authorization Testing
+* Security Auditing
+* API Health Checks
+
+---
+
+# 🏅 Areas of Interest
+
+* Financial Technology
+* Enterprise Software
+* Artificial Intelligence
+* Developer Experience
+* System Architecture
+* API Design
+* Cloud Infrastructure
+* Automation
+* Cybersecurity
+* DevOps
+* Offline-first Applications
+* Mobile Development
+
+---
+
+# 📈 Current Focus
+
+Currently spending most of my time on:
+
+* AI-powered Software Engineering
+* Enterprise System Integration
+* Financial Technology
+* Docker Infrastructure
+* Cloud-native Applications
+* Secure Authentication
+* High-performance APIs
+* Modern DevOps
+* Offline-first Mobile Apps
+* Enterprise Automation
+
+---
+
+# 🛠️ How I Work
+
+I enjoy solving difficult engineering problems while keeping systems simple, maintainable, and production-ready.
+
+Some principles I follow:
+
+* Build for production first
+* Security by design
+* Automation over repetition
+* Documentation matters
+* Measure before optimizing
+* Keep architecture maintainable
+* Focus on long-term scalability
+* Deliver clean, readable code
+
+---
+
+# 🌱 Currently Learning
+
+Technology moves fast, and I enjoy learning continuously.
+
+Current areas of exploration include:
+
+* Advanced AI Engineering
+* Large Language Models
+* Multi-agent Systems
+* Model Context Protocol (MCP)
+* Distributed Systems
+* Event-driven Architecture
+* Kubernetes
+* Cloud-native Infrastructure
+
+---
+
+# 📫 Let's Connect
+
+I'm always interested in discussing software architecture, AI, backend engineering, infrastructure, or enterprise integrations.
+
+📧 **Email**
+[toon@oattydev.com](mailto:toon@oattydev.com)
+
+🌐 **Website**
+https://www.oattydev.com
+
+💼 **LinkedIn**
+https://www.linkedin.com/in/toon-namjai-4a4b71351/
+
+---
+
+# ⚡ Fun Facts
+
+* I enjoy building tools that save developers time.
+* I like turning complex business requirements into simple software.
+* I believe great software starts with good architecture.
+* Most of my side projects begin as problems I wanted to solve for myself.
+* I'm always experimenting with new AI tools and developer workflows.
+
+---
+
+> **"Built for production. Designed for scale. Automated whenever possible."**
